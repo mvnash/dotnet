@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "LINQ_DataContext/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/LINQ_DataContext.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LINQ_DataContext.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LINQ_DataContext/1.0.0": {
+      "type": "project",
+      "path": "../Semaine 2 - LINQ_DataContext/LINQ_DataContext.csproj",
+      "msbuildProject": "../Semaine 2 - LINQ_DataContext/LINQ_DataContext.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "LINQ_DataContext >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\20210491\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
-      "projectName": "LINQ_DataContext",
-      "projectPath": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
+      "projectUniqueName": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine2\\Semaine2.csproj",
+      "projectName": "Semaine2",
+      "projectPath": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine2\\Semaine2.csproj",
       "packagesPath": "C:\\Users\\20210491\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine 2 - LINQ_DataContext\\obj\\",
+      "outputPath": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20210491\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\20210491\\Documents\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {
+              "projectPath": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
