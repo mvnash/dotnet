@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
+      "projectUniqueName": "C:\\Users\\20210491\\Source\\Repos\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
       "projectName": "LINQ_DataContext",
-      "projectPath": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
+      "projectPath": "C:\\Users\\20210491\\Source\\Repos\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj",
       "packagesPath": "C:\\Users\\20210491\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine 2 - LINQ_DataContext\\obj\\",
+      "outputPath": "C:\\Users\\20210491\\Source\\Repos\\dotnet\\Semaine 2 - LINQ_DataContext\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20210491\\AppData\\Roaming\\NuGet\\NuGet.Config",

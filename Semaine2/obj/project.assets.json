@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine2\\Semaine2.csproj",
+      "projectUniqueName": "C:\\Users\\20210491\\Source\\Repos\\dotnet\\Semaine2\\Semaine2.csproj",
       "projectName": "Semaine2",
-      "projectPath": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine2\\Semaine2.csproj",
+      "projectPath": "C:\\Users\\20210491\\Source\\Repos\\dotnet\\Semaine2\\Semaine2.csproj",
       "packagesPath": "C:\\Users\\20210491\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine2\\obj\\",
+      "outputPath": "C:\\Users\\20210491\\Source\\Repos\\dotnet\\Semaine2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\20210491\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\20210491\\Documents\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {
-              "projectPath": "C:\\Users\\20210491\\Documents\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj"
+            "C:\\Users\\20210491\\Source\\Repos\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj": {
+              "projectPath": "C:\\Users\\20210491\\Source\\Repos\\dotnet\\Semaine 2 - LINQ_DataContext\\LINQ_DataContext.csproj"
             }
           }
         }
