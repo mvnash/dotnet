@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Semaine5",
+    "\\Semaine5\\Bank_Minimal_API",
+    "\\Semaine5\\Bank_Minimal_API\\Bank_Minimal_API"
   ],
-  "SelectedNode": "\\semaine3.sln",
+  "SelectedNode": "\\semaine6",
   "PreviewInSolutionExplorer": false
 }
