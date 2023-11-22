@@ -18,7 +18,7 @@ namespace WpfEmployee.ViewModels
         }
 
 
-        public String FirstName
+        public string FirstName
         {
             get { return _employee.FirstName; }
         }
@@ -28,17 +28,22 @@ namespace WpfEmployee.ViewModels
             get { return _employee.LastName; }
         }
 
-        public DateTime birthDate
+        public string FullName
+        {
+            get { return FirstName + " " + LastName; }
+        }
+
+        public DateTime BirthDate
         {
             get { return _employee.BirthDate ?? new DateTime(); }
         }
 
-        public DateTime hireDate
+        public DateTime HireDate
         {
             get { return _employee.HireDate ?? new DateTime(); }
         }
 
-        public String title
+        public string Title
         {
             get { return _employee.Title ?? ""; }
         }
