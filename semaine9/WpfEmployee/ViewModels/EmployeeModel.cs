@@ -21,11 +21,13 @@ namespace WpfEmployee.ViewModels
         public string FirstName
         {
             get { return _employee.FirstName; }
+            set { _employee.FirstName = value; }
         }
 
         public string LastName
         {
             get { return _employee.LastName; }
+            set { _employee.LastName = value; } 
         }
 
         public string FullName
@@ -33,19 +35,30 @@ namespace WpfEmployee.ViewModels
             get { return FirstName + " " + LastName; }
         }
 
-        public DateTime BirthDate
+        public DateTime? BirthDate
         {
-            get { return _employee.BirthDate ?? new DateTime(); }
+            get { return _employee.BirthDate; }
+            set { _employee.BirthDate = value; }
         }
 
-        public DateTime HireDate
+        public DateTime? DisplayBirthDate
         {
-            get { return _employee.HireDate ?? new DateTime(); }
+            get { return BirthDate; }
+        }
+
+        public DateTime? HireDate
+        {
+            get { return _employee.HireDate; }
+            set
+            {
+                _employee.HireDate = value;
+            }
         }
 
         public string Title
         {
             get { return _employee.Title ?? ""; }
+            set { _employee.Title = value; }
         }
 
 

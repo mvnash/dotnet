@@ -9,19 +9,37 @@ namespace WpfEmployee.ViewModels
 {
     class EmployeesVM
     {
-        private List<EmployeeModel> _employeeList;
-        private NorthwindContext context = new NorthwindContext();
+        public List<EmployeeModel> EmployeesList
+        {
+            get { return loadEmployee(); }
+        }
 
+        public List<string> ListTitle
+        {
+            get { return loadTitles(); }
+        }
+
+        private List<string> loadTitles()
+        {
+            List<string> titleList = new List<string>();
+            
+
+            return titleList;
+        }
+
+
+        private NorthwindContext context = new NorthwindContext();
+         
         private List<EmployeeModel> loadEmployee()
         {
-            List<EmployeeModel> localCollection = new List<EmployeeModel>();
+            List<EmployeeModel> employeesList = new List<EmployeeModel>();
             foreach (var item in context.Employees)
             {
-                localCollection.Add(new EmployeeModel(item));
+                employeesList.Add(new EmployeeModel(item));
 
             }
 
-            return localCollection;
+            return employeesList;
 
         }
     }
