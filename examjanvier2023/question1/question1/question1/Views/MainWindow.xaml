@@ -32,6 +32,11 @@
         <Label Content="Fournisseur" HorizontalAlignment="Left" Margin="57,191,0,0" VerticalAlignment="Top"/>
         <TextBlock HorizontalAlignment="Left" Margin="159,196,0,0" TextWrapping="Wrap" Text="{Binding ContactName}" DataContext="{Binding SelectedProduct}" VerticalAlignment="Top"/>
         <Button x:Name="delete" Command="{Binding AbortProduct}" Content="Abandonner le produit" HorizontalAlignment="Left" Margin="59,276,0,0" VerticalAlignment="Top"/>
-        <DataGrid ItemsSource="{Binding ProductsListByCountry}" Margin="355,24,29,24"></DataGrid>
+        <DataGrid ItemsSource="{Binding ProductsListByCountry}" AutoGenerateColumns="False" Margin="355,24,29,24">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Pays" Binding="{Binding CountryName}" />
+                <DataGridTextColumn Header="Count" Binding="{Binding SalesCount}" />
+            </DataGrid.Columns>
+        </DataGrid>
     </Grid>
 </Window>
