@@ -3645,11 +3645,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\IPL\\3BIN\\dotnet\\examjanvier2023\\question1\\question1\\question1\\question1.csproj",
+      "projectUniqueName": "D:\\IPL\\3BIN\\dot-net\\examjanvier2023\\question1\\question1\\question1\\question1.csproj",
       "projectName": "question1",
-      "projectPath": "D:\\IPL\\3BIN\\dotnet\\examjanvier2023\\question1\\question1\\question1\\question1.csproj",
+      "projectPath": "D:\\IPL\\3BIN\\dot-net\\examjanvier2023\\question1\\question1\\question1\\question1.csproj",
       "packagesPath": "C:\\Users\\Maxime\\.nuget\\packages\\",
-      "outputPath": "D:\\IPL\\3BIN\\dotnet\\examjanvier2023\\question1\\question1\\question1\\obj\\",
+      "outputPath": "D:\\IPL\\3BIN\\dot-net\\examjanvier2023\\question1\\question1\\question1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Maxime\\AppData\\Roaming\\NuGet\\NuGet.Config",

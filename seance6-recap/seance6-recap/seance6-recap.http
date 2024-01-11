@@ -1,0 +1,6 @@
+@seance6_recap_HostAddress = http://localhost:5179
+
+GET {{seance6_recap_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

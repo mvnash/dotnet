@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n4jZZ32IkTswfDfPTM/SNNIl4qR4yBkWchyevm2+PpPEww0o/Dym8huTeEzdUhgMuM6Brncs4jnAFsS/3iZ5VA==",
+  "dgSpecHash": "SsYoPjcSe6sNnIQ1QWepgDIop4ufiSK1NAFGhFbdMnDqV2eCJqDHGgE2Q86DFSkCL6+SbojDcgxGO43fzz7POg==",
   "success": true,
-  "projectFilePath": "D:\\IPL\\3BIN\\dotnet\\examjanvier2023\\question1\\question1\\question1\\question1.csproj",
+  "projectFilePath": "D:\\IPL\\3BIN\\dot-net\\examjanvier2023\\question1\\question1\\question1\\question1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maxime\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Maxime\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

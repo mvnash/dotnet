@@ -18,9 +18,11 @@ namespace question1.ViewModels
         private ProductModel _selectedProduct;
         private DelegateCommand _abortProduct;
         private ObservableCollection<ProductModel> _ProductsList;
+        private ObservableCollection<ProductSalesInfo> _ProductsListByCountry;
 
 
         public ObservableCollection<ProductModel> ProductsList { get { return _ProductsList = _ProductsList ?? loadProductList(); } }
+        public ObservableCollection<ProductSalesInfo> ProductsListByCountry { get { return _ProductsListByCountry = _ProductsListByCountry ?? GetProductSalesInfo(); } }
 
         private ObservableCollection<ProductModel> loadProductList()
         {
@@ -34,6 +36,22 @@ namespace question1.ViewModels
             }
 
             return localCollection;
+        }
+
+        public ObservableCollection<ProductSalesInfo> GetProductSalesInfo()
+        {
+            var productSalesInfo = context.Products
+                .Where(p => p.OrderDetails != null && p.Supplier != null )
+                .GroupBy(p => p.Supplier.Country)
+                .Select(group => new ProductSalesInfo
+                {
+                    CountryName = group.Key,
+                    SalesCount = group.Count()
+                })
+                .OrderByDescending(info => info.SalesCount)
+                .ToList();
+
+            return new ObservableCollection<ProductSalesInfo>(productSalesInfo);
         }
 
 
