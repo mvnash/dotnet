@@ -13,13 +13,5 @@ Scaffold-DbContext -OutputDir Models 'Data Source=(localdb)\MSSQLLocalDB;Initial
 
 ```
 protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-{
-   if (!optionsBuilder.IsConfigured)
-   {
-   optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Northwind;MultipleActiveResultSets=True")
-           .UseLazyLoadingProxies()
-           .LogTo(Console.WriteLine, LogLevel.Information)
-           .EnableSensitiveDataLogging();
-   }        
-}
+        => optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=Northwind").UseLazyLoadingProxies();
 ```
