@@ -6,7 +6,7 @@
 
 -Microsoft.EntityFrameworkCore.SqlServer
 
--EntityFrameworkCore.Proxies
+-Microsoft.EntityFrameworkCore.Proxies
 
 Scaffold-DbContext -OutputDir Models 'Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Northwind' Microsoft.EntityFrameworkCore.SqlServer
 
@@ -21,4 +21,5 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
            .LogTo(Console.WriteLine, LogLevel.Information)
            .EnableSensitiveDataLogging();
    }        
-}```
+}
+```
